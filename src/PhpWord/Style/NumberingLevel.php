@@ -185,7 +185,7 @@ class NumberingLevel extends AbstractStyle
      */
     public function setFormat($value)
     {
-        $enum = array('bullet', 'decimal', 'upperRoman', 'lowerRoman', 'upperLetter', 'lowerLetter');
+        $enum = array('none', 'bullet', 'decimal', 'upperRoman', 'lowerRoman', 'upperLetter', 'lowerLetter');
         $this->format = $this->setEnumVal($value, $enum, $this->format);
         return $this;
     }
